@@ -1,0 +1,53 @@
+package Vineeth.week2;
+import java.util.ArrayList;
+
+public class Book {
+	private ArrayList<String> bookName;
+	private ArrayList<String> authorName;
+	private ArrayList<String> description;
+	private ArrayList<Integer> bookId;
+	
+	public Book() {
+		//default constructor
+	}
+	public Book(ArrayList<String> bookName, ArrayList<String> authorName, ArrayList<String> description, ArrayList<Integer> bookId) {
+		this.bookName = bookName;
+		this.authorName = authorName;
+		this.description = description;
+		this.bookId = bookId;
+	}
+	
+
+	
+	// Getters and Setters
+	
+	public ArrayList<String> getBookName() {
+		return bookName;
+	}
+	public void setBookName(ArrayList<String> bookName) {
+		this.bookName = bookName;
+	}
+	public ArrayList<String> getAuthorName() {
+		return authorName;
+	}
+	public void setAuthorName(ArrayList<String> authorName) {
+		this.authorName = authorName;
+	}
+	public ArrayList<String> getDescription() {
+		return description;
+	}
+	public void setDescription(ArrayList<String> description) {
+		this.description = description;
+	}
+	public ArrayList<Integer> getBookId() {
+		return bookId;
+	}
+	public void setBookId(ArrayList<Integer> bookId) {
+		this.bookId = bookId;
+	}
+	
+	
+}
+
+
+
